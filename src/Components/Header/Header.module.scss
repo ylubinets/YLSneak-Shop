@@ -1,0 +1,44 @@
+.header{
+  background-color: #00293C;
+  display: flex;
+  color: #FFFFFF;
+  height: 95px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  &__logo{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 100px;
+
+    :hover{
+      color: #F62A00;
+      transition: .3s;
+    }
+  }
+
+  &__list{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+  }
+  &__fav{
+    margin-right: 25px;
+
+    :hover{
+      fill: #F62A00;
+      transition: .3s;
+    }
+  }
+  &__cart{
+    font-size: 17px;
+    font-weight: bold;
+
+    :hover{
+      color: #F62A00;
+      transition: .3s;
+    }
+  }
+
+}

@@ -1,0 +1,34 @@
+.modal {
+  z-index: 20;
+  width: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &__header{
+    color: white;
+    padding: 21px 30px ;
+    background-color:rgba(0,0,0,.3);
+    display: flex;
+    justify-content: space-between;
+    &__cross{
+      cursor: pointer ;
+    }
+  }
+  &__txt{
+    padding: 21px 30px ;
+    color: white;
+  }
+}
+.overlay{
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  transition: .3s all;
+
+}

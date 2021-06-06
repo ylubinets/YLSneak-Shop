@@ -1,0 +1,42 @@
+.form{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+}
+
+.label {
+  margin: 5px 0;
+}
+
+.btn{
+  width: 80px;
+  height: 40px;
+  background-color: #1E656D;
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.field{
+  border-radius: 10px;
+  border: 1px solid #1E656D;
+  padding: 5px;
+}
+
+.error{
+  color: red;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.blockForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
