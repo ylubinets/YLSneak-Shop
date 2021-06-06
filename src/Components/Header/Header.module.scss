@@ -5,12 +5,12 @@
   height: 95px;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+
 
   &__logo{
     font-weight: 700;
     font-size: 32px;
-    margin-left: 100px;
+    margin-left: 50px;
 
     :hover{
       color: #F62A00;
@@ -21,7 +21,7 @@
   &__list{
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 50px;
   }
   &__fav{
     margin-right: 25px;
@@ -40,5 +40,4 @@
       transition: .3s;
     }
   }
-
 }
